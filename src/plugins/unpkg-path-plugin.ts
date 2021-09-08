@@ -6,7 +6,7 @@ const fileCache = localForage.createInstance({
   name: 'filecache'
 })
 
-
+console.log('test')
 export const unpkgPathPlugin = (inputCode: string) => {
   return {
     name: 'unpkg-path-plugin',
